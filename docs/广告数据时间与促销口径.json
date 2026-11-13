@@ -47,6 +47,8 @@
     "clearance_requested_price_gbp": 12.99,
     "clearance_price_active": false,
     "if_12_99_stacks_10pct_effective_price_gbp": 11.69,
-    "note": "Coupon叠加对象和当前标价待用户回复；不擅自启用或宣布利润"
+    "note": "Coupon叠加对象和当前标价待用户回复；不擅自启用或宣布利润；若周均价已包含10%券，不再重复扣减。",
+    "coupon_active": null,
+    "coupon_included_in_prior_week_average": null
   }
 }
