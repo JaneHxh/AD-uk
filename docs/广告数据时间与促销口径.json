@@ -1,0 +1,52 @@
+{
+  "confirmed_on": "2026-11-13",
+  "periods": [
+    {
+      "filename": "维海 德厨账号-阿联酋-UK-UK-SP搜索词-0915-1113-汇总-2121168814159921154.xlsx",
+      "channel": "自动",
+      "start": "2026-09-15",
+      "end": "2026-11-13",
+      "source": "用户确认"
+    },
+    {
+      "filename": "维海 德厨账号-阿联酋-UK-UK-SP搜索词-1114-1113-汇总-2121169751721095169.xlsx",
+      "channel": "自动",
+      "start": "2025-11-14",
+      "end": "2026-11-13",
+      "source": "用户确认"
+    },
+    {
+      "filename": "维海 德厨账号-阿联酋-UK-UK-SP搜索词-0701-1112-汇总-2121169877336297473.xlsx",
+      "channel": "自动",
+      "start": "2025-07-01",
+      "end": "2025-11-12",
+      "source": "用户先前确认，本轮未更改"
+    },
+    {
+      "filename": "维海 德厨账号-阿联酋-UK-UK-SP搜索词-0701-1112-汇总-2121171042803359745.xlsx",
+      "channel": "手动关键词",
+      "start": "2025-07-01",
+      "end": "2026-11-12",
+      "source": "用户最新更正2026-11-13；覆盖前一版仅2025年口径"
+    }
+  ],
+  "input_date_column_present": false,
+  "manual_natural_days_inclusive": 500,
+  "rules": [
+    "数据日期与导出日期/文件名MMDD分开；无完整年份不猜测",
+    "按完整文件名/来源ID记录周期，不能把两个0701–1112当同一周期",
+    "汇总没有日粒度，不能反推出每条搜索词发生日期；累计ACOS不代表本周ACOS",
+    "近60天属于近一年，新增手动累计也跨年；不得相加重叠窗口",
+    "用户最新更正覆盖旧确认，保留更正说明；数据数值本身不改"
+  ],
+  "offer_state": {
+    "goal": "快速起量",
+    "coupon_rate": 0.1,
+    "coupon_base_price_gbp": null,
+    "current_list_price_gbp": null,
+    "clearance_requested_price_gbp": 12.99,
+    "clearance_price_active": false,
+    "if_12_99_stacks_10pct_effective_price_gbp": 11.69,
+    "note": "Coupon叠加对象和当前标价待用户回复；不擅自启用或宣布利润"
+  }
+}
