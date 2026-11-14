@@ -28,6 +28,17 @@
       "start": "2025-07-01",
       "end": "2026-11-12",
       "source": "用户最新更正2026-11-13；覆盖前一版仅2025年口径"
+    },
+    {
+      "filename": "202507-20261113维海 德厨账号-阿联酋-UK-UK-SP搜索词-1115-1114-汇总-2121444772796399617.xlsx",
+      "channel": "自动",
+      "product_asin_inferred_from_campaign": "B0D5XQXSSM",
+      "start_month": "2025-07",
+      "start": null,
+      "end": "2026-11-13",
+      "source": "用户明确2025年7月至2026年11月；文件名前缀截止20261113；未提供起始日。中段1115-1114不推断年份。",
+      "confirmed_on": "2026-11-14",
+      "date_column_present": false
     }
   ],
   "input_date_column_present": false,
@@ -50,5 +61,28 @@
     "note": "Coupon叠加对象和当前标价待用户回复；不擅自启用或宣布利润；若周均价已包含10%券，不再重复扣减。",
     "coupon_active": null,
     "coupon_included_in_prior_week_average": null
+  },
+  "product_attributes": {
+    "B0D5XQXSSM": {
+      "source": "用户本轮2026-11-14；ASIN按活动名识别",
+      "product": "陶瓷不粘烤盘，带rack",
+      "internal_dimensions_cm": [
+        38,
+        31,
+        7.6
+      ],
+      "external_dimensions_cm": [
+        41.4,
+        32.3,
+        13.7
+      ],
+      "body_material": null,
+      "ceramic_type": "待确认是涂层还是整体陶瓷",
+      "lid": null,
+      "induction_compatible": null,
+      "gas_hob_compatible": null,
+      "microwave_compatible": null,
+      "note": "不沿用8寸煎盘的Coupon、价格、库存、利润或物理属性"
+    }
   }
 }
