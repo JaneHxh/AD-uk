@@ -64,7 +64,7 @@
   },
   "product_attributes": {
     "B0D5XQXSSM": {
-      "source": "用户本轮2026-11-14；ASIN按活动名识别",
+      "source": "用户本轮回答并确认支持电磁炉；不更改原广告统计周期",
       "product": "陶瓷不粘烤盘，带rack",
       "internal_dimensions_cm": [
         38,
@@ -76,13 +76,14 @@
         32.3,
         13.7
       ],
-      "body_material": null,
-      "ceramic_type": "待确认是涂层还是整体陶瓷",
-      "lid": null,
-      "induction_compatible": null,
+      "body_material": "金属，具体金属种类未给",
+      "ceramic_type": "陶瓷不粘涂层",
+      "lid": false,
+      "induction_compatible": true,
       "gas_hob_compatible": null,
       "microwave_compatible": null,
-      "note": "不沿用8寸煎盘的Coupon、价格、库存、利润或物理属性"
+      "note": "不沿用8寸煎盘的Coupon、价格、库存、利润或物理属性",
+      "confirmed_on": "2026-11-14"
     }
   }
 }
